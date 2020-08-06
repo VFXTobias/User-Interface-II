@@ -1,1 +1,160 @@
 /* Add CSS styling here */
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap');
+
+*{
+  box-sizing:border-box;
+  /* margin:0; */
+  padding:0;
+  max-width:100%;
+  /* border:1px solid grey; */
+}
+html{
+  font-size:62.5%;
+}
+body{
+  font-size:1.6rem;
+  font-family: 'Cabin', sans-serif;
+  line-height:1.5;
+}
+
+h1{
+    font-family: 'Cabin' 800, sans-serif;
+}
+
+h2{
+    font-family: 'Cabin' 400, sans-serif;
+}
+
+a{
+  text-decoration:none;
+  color:#fff;
+  display:inline-block;
+  width:40%;
+  text-align:center;
+  border-radius: 5px;
+}
+
+.headSection{
+    background-color: gray;
+    padding:2%;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    padding:.5% 0;
+    width: 25%;
+
+}
+.navButton{
+    background-color: rgb(207, 207, 207);
+    transition:2s;
+    margin: .5%;    
+}
+
+.navButton:hover{
+    background-color: lightseagreen;
+ }
+
+.intro{
+    /* height: 15%; */
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:2%;
+}
+
+.introHeroImage{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 35%;
+    height: 35%;
+}
+
+.introInfo{
+    display:flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    /* padding: 2%; */
+    align-self: center;
+    width: 40%;
+    height: 75%;
+}
+
+.projectsButton{
+    background-color: rgb(207, 207, 207);
+    transition:2s;
+    margin: .5%; 
+}
+
+.projectsButton:hover{
+    background-color: lightseagreen;
+}
+
+.projects{    
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding:1% 0; */
+}
+
+.projectsrow1{
+    display:flex;
+    justify-content: center;
+}
+
+.projectsrow2{
+    display:flex;
+    justify-content: center;
+}
+
+.imageWText{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.box{
+    padding: 1%;
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    background-color: gray;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footerTitle{
+    display: flex;
+    justify-content: center;
+    margin: 1% 1%;
+}
+
+.footerContact{
+    display:flex;
+    justify-content: center;
+}
+
+.contactButton{
+    background-color: rgb(207, 207, 207);
+    width: 150px;
+    margin: 0% 5% 3%;
+    transition:2s;
+}
+
+.contactButton:hover{
+        background-color: lightseagreen;
+}
+
+.socialMedia{
+    display:flex;
+    width: 50%;
+    justify-content: center;
+    align-self: center;
+    
+}
